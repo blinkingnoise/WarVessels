@@ -172,7 +172,7 @@
 
     function shareGame(g) {
         switchState('share');
-        link.setAttribute('value', 'https://war-vessels.herokuapp.com/play/' + g);
+        link.setAttribute('value', 'https://war-vessels.blinkingnoise.org/play/' + g);
         playButton.onclick = function(){play(g)};
         if (!isOS())
             copy();
